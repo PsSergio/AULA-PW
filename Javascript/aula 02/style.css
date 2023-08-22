@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Inter:wght@400;700&family=Londrina+Solid:wght@100;300;400;900&family=Noto+Sans:wght@500;700&family=Paytone+One&family=Roboto:wght@100;300&family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Solid', cursive;
+}
+
+body{
+    background-color: rgb(0, 153, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+header h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.input-user-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px
+}
+
+.input-user-container input{
+    padding: 10px 40px 10px 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    margin-bottom: 20px;
+}
+
+.buttons-math{
+    display: flex;
+    align-items: center;
+}
+
+.buttons-math button{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#input-elevado{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#n3{
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+#calcular-elevado{
+    padding: 10px 40px;
+    background-color: rgb(27, 199, 84);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.res-container{
+    display: none;
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#res-title{
+    margin: 20px;
+    font-size: 30px;
+}
+
+#res-desc, #res-info{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* #n2{
+    border: 2px solid black;
+} */

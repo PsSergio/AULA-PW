@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 2 - CALCULADORA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA</h1>
+        <h2>By Paulo Sergio</h2>
+    </header>
+    <section>
+        <div class="input-user-container">
+            <div class="input-numbers">
+                <input type="number" name="n1" id="n1" placeholder="Insira o primeiro número" class="input">
+                <input type="number" name="n2" id="n2" placeholder="Insira o segundo número" class="input">
+            </div>
+            <div class="buttons-math">
+                <button id="somar" class="button buttonGeral" onclick="somar()">+</button>
+                <button id="subtrair" class="button buttonGeral" onclick="subtrair()">-</button>
+                <button id="divisao" class="button buttonGeral" onclick="divisao()">/</button>
+                <button id="multiplicar" class="button buttonGeral" onclick="multiplicar()">x</button>
+                <button id="elevado" onclick="elevado()">^x</button>
+                <button id="raizQuadrado" class="button buttonGeral" onclick="raizQuadrada()">√x</button>
+            </div>
+            <div id="input-elevado">
+                <input type="number" name="n3" id="n3" placeholder="Número elevado" class="input">
+                <button id="calcular-elevado" class="buttonGeral" onclick="calcularElevado()">CALCULAR</button>
+            </div>
+        </div>
+        <div class="res-container">
+            <h1 id="res-title">RESULTADO:</h1>
+            <p id="res-desc">Com a operação matemática de <strong id="textMath">a</strong>, temos:</p>
+            <p id="res-info">n1 + n2 = x</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

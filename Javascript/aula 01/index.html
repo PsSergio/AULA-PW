@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 01 - JS</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <header>
+        <h1>Tela de login</h1>
+    </header>
+    <section>
+        <!-- PRIMEIRO EXERCICIO -->
+        <form>
+            <input type="email" id="input-email" placeholder="Insira o seu e-mail" required>
+            <input type="password" name="password" id="password-input" placeholder="Insira a sua senha" required>
+            <button id="button">Enviar</button>
+        </form>
+
+        <h3>EXERCÍCIO 2 - OPERAÇÕES SIMPLES</h3>
+
+        <input type="number" name="n1" id="n1">
+        <input type="number" name="n2" id="n2">
+
+        <button id="somar-btn" onclick="somar()">+</button>
+        <button id="subtrair-btn" onclick="subtrair()">-</button>
+        <button id="multiplicar-btn" onclick="mult()">x</button>
+        <button id="dividir-btn" onclick="dividir()">/</button>
+        <button id="quadrado-btn" onclick="quadrado()">2</button>
+
+        <p id="res"></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

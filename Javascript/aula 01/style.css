@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Inter:wght@400;700&family=Londrina+Solid:wght@100;300;400;900&family=Noto+Sans:wght@500;700&family=Paytone+One&family=Roboto:wght@100;300&family=Titillium+Web:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Solid', cursive;
+}
+
+body{
+    background-color: rgb(0, 153, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+header h1{
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 15vw;
+    height: 30vh;
+    border-radius: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    font-size: 20px;
+    padding: 10px 25px 10px 8px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 0px black;
+}
+
+
+form button{
+    font-size: 20px;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgb(77, 221, 77), rgb(60, 180, 60));
+    color:white;
+    transition: all 0.3s ease-in-out;
+}
+
+form button:hover{
+    filter: brightness(90%);
+}
