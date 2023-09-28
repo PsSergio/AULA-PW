@@ -1,5 +1,5 @@
-function subtraiNumeros(x, y){
-    console.log(x - y);
+function subtraiNumeros(a, b){
+    console.log(a - b);
 }
 
 function pegaDados(){
@@ -7,6 +7,3 @@ function pegaDados(){
     let n2 = Number(prompt("Digite o segundo numero: "));
     subtraiNumeros(n1, n2);
 }
-
-
-
